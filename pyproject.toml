@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kona-open-ebrm"
+version = "0.1.0"
+description = "Open cross-domain energy-based reasoning model"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "torch>=2.5",
+  "flask>=3.0",
+]
+
+[tool.setuptools]
+packages = ["kona"]
